@@ -31,9 +31,9 @@ public class 문제5다시3두번째문제 {
 				}
 	/*int n = 24;
         
-        switch(n / 10) {
+        switch(n / 10) {    //왜  /10 인
         case 0:
-            System.out.println("0이상 10미만의 수");
+            System.out.println("0이상 10미만의 수");  // 케이스 123 이랑 012랑 뭐가다른
             break;
         case 1:
             System.out.println("10이상 20미만의 수");

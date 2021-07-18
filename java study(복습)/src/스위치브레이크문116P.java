@@ -21,4 +21,14 @@ public class 스위치브레이크문116P {
 		System.out.println("Do you like java?");
 	}
 
+	/*
+	 * switch문의 특징을 한가지더 언급하자면 둘이상의  레이블을 이어서 둘 수도있다.
+	 * case1:
+	 * case2:
+	 * case3:
+	 * System.out.println("case 1, 2, 3);
+	 * break;
+	 * default:
+	 * System.out.println("default");
+	 */
 }
