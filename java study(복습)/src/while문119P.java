@@ -21,3 +21,4 @@ public class while문119P {
 	 * while문의 중괄호도 반복 실행할 문장이 하나라면 생략 가능하다.
 	 */
 }
+  

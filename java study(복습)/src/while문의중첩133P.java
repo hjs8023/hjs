@@ -7,9 +7,9 @@ public class while문의중첩133P {
 		int i = 2;
 		int j;
 		
-		while(i < 10) {
-			j = 1;
-			while(j < 10) {
+		while(i < 10) {   // 2부터 9까지실행   가로
+			j = 1; 
+			while(j < 10) {  //  1 부터 10까지 실행 세로
 				System.out.println(i + "x" + j + " =" + (i*j));
 				j++;
 			}

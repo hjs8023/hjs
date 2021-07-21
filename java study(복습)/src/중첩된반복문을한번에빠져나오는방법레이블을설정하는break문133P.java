@@ -5,9 +5,9 @@ public class 중첩된반복문을한번에빠져나오는방법레이블을설�
 		// TODO Auto-generated method stub
 		//  구구단에서 곱의 결과가 72인 결과를 딱하나만 보여라
 		
-		for( int  i= 1; i < 10; i++) {		// 바깥쪽  for문
-			for(int j = 1; j < 10; j++) {	// 안쪽 for문    안쪽 for문 탈출
-				if((i*j)== 72) {
+		for( int  i= 1; i < 10; i++) {		// 바깥쪽  for문  1부터 9까지 실행 가로
+			for(int j = 1; j < 10; j++) {	// 안쪽 for문    안쪽 for문 탈출  1부터 9까지실행 세로
+				if((i*j)== 72) {  // i*j 는 72일 때 break문을 실행  if문사
 					System.out.println(i + "x" + j + "="+ i*j);
 					break;
 				}

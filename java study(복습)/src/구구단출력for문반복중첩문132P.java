@@ -4,8 +4,8 @@ public class 구구단출력for문반복중첩문132P {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		for(int i = 2; i < 10; i++) {
-			for(int j = 1; j < 10; j++)
+		for(int i = 2; i < 10; i++) {   // 2부터 9까지 실행 가로
+			for(int j = 1; j < 10; j++)	// 1부터 10까지 실행 세로
 				System.out.println(i + "x" + j + "=" + (i*j));
 		}
 	}
