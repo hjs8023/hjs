@@ -24,6 +24,29 @@ public class 재귀매소드의정의_6_3___154P {
     	 	factor(5) = 2*(factor(4)) = 2*(2*(factor(3))) = ... = 2*2*2*2*2*1 = 2^5
     	 	factor5 다섯번 실행이므로 2 다섯번 곱하면 32 
     	 
+    	 	return 2 * (n-1);이 아니라
+return 2 * powerOfTwo(n-1);
+
+powerOfTwo(5);
+-> return 2 * powerOfTwo(4);
+-> return 2 * 2 * powerOfTwo(3);
+-> return 2 * 2 * 2 * powerOfTwo(2);
+-> return 2 * 2 * 2 * 2 * powerOfTwo(1);
+-> return 2 * 2 * 2 * 2 * 2 * powerOfTwo(0);
+-> return 2 * 2 * 2 * 2 * 2 * 1;
+-> 32
+2 * powerOfTwo(n - 1)
+
+f(x) =
+{ 2 * f(x-1) (x > 0)
+{ 1 (x = 0)일 때,
+
+f(0) = 1
+f(1) = 2 * f(1-1) = 2 * f(0) = 2 * 1 = 2
+f(2) = 2 * f(2-1) = 2 * f(1) = 2 * 2 = 4
+f(3) = 2 * f(3-1) = 2 * f(2) = 2 * 4 = 8
+f(4) = 2 * f(4-1) = 2 * f(3) = 2 * 8 = 16
+f(5) = 2 * f(5-1) = 2 * f(4) = 2 * 16 = 32
     	 */
 }
 
