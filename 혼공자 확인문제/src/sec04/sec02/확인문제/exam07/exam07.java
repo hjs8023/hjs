@@ -24,12 +24,12 @@ public class exam07 {
 			System.out.println("------------------------");
 			System.out.println("선택> ");
 			
-			int menuNum = Integer.parseInt(scanner.nextLine());
+			int menuNum = Integer.parseInt(scanner.nextLine());		// int형 변수 menuNum 선언후 --> 문자열 형을 기본형으로 변경해주는 integer.parseint 선언 그리고 consol에서 읽을수있도록 scanner.nextLine()선언
 			
 			switch (menuNum) {					// switch문 사용해서 원하는 case 골라서 System.in 하고 case4애서는 종료해야하므로 강제로 false 선언후 case4 빠져나오고 프로그램종료
 			case 1:
-				System.out.print("예금액>");
-				balance += Integer.parseInt(scanner.nextLine());
+				System.out.print("예금액>");			//	S.o.p (예금액)
+				balance += Integer.parseInt(scanner.nextLine());	// 문자열 형 (int)기본값 으로 변경해주는 변수선언 콘솔과 스캐너에서 읽을수있도록 nextLine 선언
 				break;
 			
 			case 2:
@@ -46,13 +46,7 @@ public class exam07 {
 				
 			}
 			System.out.println();				// -->?
-			
-					
-					
 		}
 		System.out.println("프로그램종료.");
-		
 	}
-
-	
 }
