@@ -13,9 +13,9 @@ public class exam07 {
 	
 	public static void main(String[] args)throws Exception {
 		// TODO Auto-generated method stub
-		boolean run = true;
-		int balance = 0;
-		Scanner scanner = new Scanner(System.in);
+		boolean run = true;		//  논리형 변수선언
+		int balance = 0;		// int형 변수 선언
+		Scanner scanner = new Scanner(System.in);	//scanner 변수 선언
 		
 		
 		while(run) {
@@ -41,7 +41,7 @@ public class exam07 {
 				System.out.println(balance);		
 				break;
 			case 4:
-				run = false;
+				run = false;		// while문 run이 무한루프이기때문에 강제로 false선언후 빠져나감
 				break;
 				
 			}
