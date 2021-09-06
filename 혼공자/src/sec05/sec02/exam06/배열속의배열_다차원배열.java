@@ -12,7 +12,7 @@ public class 배열속의배열_다차원배열 {
 		}
 		System.out.println();
 		
-		int[][] englishScores = new int[2][];		// int타입 이차원 배열선언[][] -- 배열변수englishScores선언 -- int타입 new연산자 선언후 [2]행[0]열 형성
+		int[][] englishScores = new int[2][];		// int타입 이차원 배열선언[][] -- 배열변수englishScores선언 -- int타입 new연산자 선언후 [2]행[0]열 형성,, 계단식다차원변수는 행수만 주고 배열객체를 만든다
 		englishScores[0] = new int[2];				// english[0] 인덱스에 길이 2짜리 배열생성
 		englishScores[1] = new int[3];				// english[1] 인덱스에 길이 3짜리 배열생성
 		for (int i =0; i<englishScores.length; i++) {
